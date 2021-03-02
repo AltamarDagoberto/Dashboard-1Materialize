@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F4</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!-- Material Design Iconic Font CSS -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+
+    <!-- Malihu jQuery custom content scroller CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+
+    <!-- MaterialDark CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Nav Lateral -->
+    <section class="NavLateral full-width">
+        <div class="NavLateral-FontMenu full-width ShowHideMenu"></div>
+        <div class="NavLateral-content full-width">
+            <header class="NavLateral-title full-width center-align">
+                Materialize <i class="zmdi zmdi-close NavLateral-title-btn ShowHideMenu"></i>
+            </header>
+            <figure class="full-width NavLateral-logo">
+                <img src="assets/img/logo.png" alt="material-logo" class="responsive-img center-box">
+                <figcaption class="center-align">Materialize CSS</figcaption>
+            </figure>
+            <div class="NavLateral-Nav">
+                <ul class="full-width">
+                    <li>
+                        <a href="home.html" class="waves-effect waves-light"><i
+                                class="zmdi zmdi-desktop-mac zmdi-hc-fw"></i> Dashboard</a>
+                    </li>
+                    <li class="NavLateralDivider"></li>
+
+                    <li class="NavLateralDivider"></li>
+                    <li>
+                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light"><i
+                                class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i
+                                class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Formularios</a>
+                        <ul class="full-width">
+                            <li><a href="button.html" class="waves-effect waves-light">Button</a></li>
+                            <li class="NavLateralDivider"></li>
+                            <li><a href="form.html" class="waves-effect waves-light">F2</a></li>
+                            <li class="NavLateralDivider"></li>
+                            <li><a href="form4.html" class="waves-effect waves-light">F4</a></li>
+                            <li class="NavLateralDivider"></li>
+                        </ul>
+                    </li>
+                    <li class="NavLateralDivider"></li>
+                    <li>
+                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light"><i
+                                class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i
+                                class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Ultima Pagina</a>
+                        <ul class="full-width">
+                            <li><a href="wizard.html" class="waves-effect waves-light">Wizard</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Page content -->
+    <section class="ContentPage full-width">
+        <!-- Nav Info -->
+        <div class="ContentPage-Nav full-width">
+            <ul class="full-width">
+                <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light"
+                        data-position="bottom" data-delay="50" data-tooltip="Menu"><i
+                            class="zmdi zmdi-more-vert"></i></a></li>
+                <li>
+                    <figure><img src="assets/img/logo-user.png" alt="UserImage"></figure>
+                </li>
+                <li style="padding:0 5px;">User Name</li>
+                <li><a href="#" class="tooltipped waves-effect waves-light btn-ExitSystem" data-position="bottom"
+                        data-delay="50" data-tooltip="Logout"><i class="zmdi zmdi-power"></i></a></li>
+                <li><a href="#" class="tooltipped waves-effect waves-light btn-Search" data-position="bottom"
+                        data-delay="50" data-tooltip="Search"><i class="zmdi zmdi-search"></i></a></li>
+                <li>
+                    <a href="#" class="tooltipped waves-effect waves-light btn-Notification" data-position="bottom"
+                        data-delay="50" data-tooltip="Notifications">
+                        <i class="zmdi zmdi-notifications"></i>
+                        <span class="ContentPage-Nav-indicator bg-danger">2</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Notifications area -->
+        <section class="z-depth-3 NotificationArea">
+            <div class="full-width center-align NotificationArea-title">Notifications <i
+                    class="zmdi zmdi-close btn-Notification"></i></div>
+            <a href="#" class="waves-effect Notification">
+                <div class="Notification-icon"><i class="zmdi zmdi-accounts-alt bg-info"></i></div>
+                <div class="Notification-text">
+                    <p>
+                        <i class="zmdi zmdi-circle tooltipped" data-position="left" data-delay="50"
+                            data-tooltip="Notification as UnRead"></i>
+                        <strong>New User Registration</strong>
+                        <br>
+                        <small>Just Now</small>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="waves-effect Notification">
+                <div class="Notification-icon"><i class="zmdi zmdi-cloud-download bg-primary"></i></div>
+                <div class="Notification-text">
+                    <p>
+                        <i class="zmdi zmdi-circle-o tooltipped" data-position="left" data-delay="50"
+                            data-tooltip="Notification as Read"></i>
+                        <strong>New Updates</strong>
+                        <br>
+                        <small>30 Mins Ago</small>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="waves-effect Notification">
+                <div class="Notification-icon"><i class="zmdi zmdi-upload bg-success"></i></div>
+                <div class="Notification-text">
+                    <p>
+                        <i class="zmdi zmdi-circle tooltipped" data-position="left" data-delay="50"
+                            data-tooltip="Notification as UnRead"></i>
+                        <strong>Archive uploaded</strong>
+                        <br>
+                        <small>31 Mins Ago</small>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="waves-effect Notification">
+                <div class="Notification-icon"><i class="zmdi zmdi-mail-send bg-danger"></i></div>
+                <div class="Notification-text">
+                    <p>
+                        <i class="zmdi zmdi-circle-o tooltipped" data-position="left" data-delay="50"
+                            data-tooltip="Notification as Read"></i>
+                        <strong>New Mail</strong>
+                        <br>
+                        <small>37 Mins Ago</small>
+                    </p>
+                </div>
+            </a>
+            <a href="#" class="waves-effect Notification">
+                <div class="Notification-icon"><i class="zmdi zmdi-folder bg-primary"></i></div>
+                <div class="Notification-text">
+                    <p>
+                        <i class="zmdi zmdi-circle-o tooltipped" data-position="left" data-delay="50"
+                            data-tooltip="Notification as Read"></i>
+                        <strong>Folder delete</strong>
+                        <br>
+                        <small>1 hours Ago</small>
+                    </p>
+                </div>
+            </a>
+        </section>
+
+        <!--Input fields-->
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align">F4</h2>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input disabled value="Placa del Vehiculo" id="first_name" type="text" class="validate">
+                            <label for="first_name"></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input disabled value="Identificacion de Ingreso" id="last_name" type="text"
+                                class="validate">
+                            <label for="last_name"></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select class="icons">
+                                <option value="" disabled selected>COBRO POR DIA</option>
+                                <option value="" class="left">example 1</option>
+                                <option value="" class="left">example 2</option>
+                                <option value="" class="left">example 3</option>
+                            </select>
+                            <label>MODIFICADOR</label>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="date" class="validate">
+                            <label for="first_name">Fecha Salida</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="time" class="validate">
+                            <label for="last_name">Hora de Salida</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select class="icons">
+                                <option value="" disabled selected>SIN CLASIFICAR</option>
+                                <option value="" class="left">example 1</option>
+                                <option value="" class="left">example 2</option>
+                                <option value="" class="left">example 3</option>
+                            </select>
+                            <label>Observacion</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Documento de salida</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="date" class="validate">
+                            <label for="last_name">Fecha</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <select class="icons">
+                                <option value="" disabled selected>SIN CLASIFICAR</option>
+                                <option value="" class="left">example 1</option>
+                                <option value="" class="left">example 2</option>
+                                <option value="" class="left">example 3</option>
+                            </select>
+                            <label>Docuemento de Salida Emitido Por</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <select class="icons">
+                                <option value="" disabled selected>SIN CLASIFICAR</option>
+                                <option value="" class="left">example 1</option>
+                                <option value="" class="left">example 2</option>
+                                <option value="" class="left">example 3</option>
+                            </select>
+                            <label>Documento de Salida Firmado Por</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <select class="icons">
+                                <option value="" disabled selected>SIN CLASIFICAR</option>
+                                <option value="" class="left">example 1</option>
+                                <option value="" class="left">example 2</option>
+                                <option value="" class="left">example 3</option>
+                            </select>
+                            <label>Estado</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s11">
+
+                            <input type="text">
+                            <label>Entregado a</label>
+                        </div>
+                        <div class="input-field col s1">
+                            <button class="btn" type="button" id="button-addon2">
+                                <i class="large material-icons">search</i>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled value="Operador" id="first_name" type="text" class="validate">
+                            <label for="first_name"></label>
+                        </div>
+                    </div>
+                    <script>
+                        $(function () {
+                            $('select').formSelect();
+                        });
+
+                        $('#prim').change(function () {
+                            for (i = 0; i < 10; i++) {
+                                $('#seg').append($('<option>',
+                                    {
+                                        value: i,
+                                        text: "Option " + i
+                                    }));
+                            }
+                            $('#seg').formSelect();
+                        });
+                    </script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+                    <script
+                        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+                        rel="stylesheet" />
+
+
+
+
+
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                    <a onclick="alerta1()" class="btn">Enviar</a>
+                    <a onclick="alerta()" class="btn">Cancelar</a>
+                    <script>
+                        function alerta1() {
+                            M.toast({
+                                html: 'Formulario Enviado',
+                                classes: "green"
+
+                            })
+                        }
+                        function alerta() {
+                            M.toast({
+                                html: 'Formulario Cancelado',
+                                classes: "red"
+
+                            })
+                        }
+                    </script>
+
+
+                </form>
+            </div>
+        </div>
+
+        <!--Icon Prefixes
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align">Icon Prefixes</h2>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="zmdi zmdi-account-circle prefix"></i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="zmdi zmdi-phone prefix"></i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Telephone</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    -->
+        <!--Textarea
+        <div class="container">
+            <div class="row">
+                <h2 class="center-align">Textarea</h2>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    -->
+        <!-- Footer -->
+
+    </section>
+
+    <!-- Sweet Alert JS -->
+    <script src="js/sweetalert.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
+
+    <!-- Materialize JS -->
+    <script src="js/materialize.min.js"></script>
+
+    <!-- Malihu jQuery custom content scroller JS -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- MaterialDark JS -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems);
+        });
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>
